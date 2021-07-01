@@ -1,0 +1,169 @@
+@CHARSET "UTF-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+body {
+	padding: 0px;
+	margin: 0px;	 
+}
+div{
+	float:left;
+	position: relative;
+}
+header{
+	text-align:center;
+}
+
+#leftdiv{/* 추가해줌 */
+	width:600px;
+	margin-left:50px;
+	
+}
+
+#rightdiv{
+	
+	left: 10px;	
+}
+td.menu {
+	padding: 10px;
+	text-align : center;	
+}
+
+.menutbl{
+	margin:10px;
+	padding:5px; /* 수정해줌 */	
+	border:1px dotted black;
+	border-radius: 10px;
+	font-family: 'Nanum Gothic', serif;
+}
+
+.menutbl tr td {
+	padding-top: 30px;
+}
+.menutbl tr td img{
+	padding-bottom: 5px;
+}
+.menutbl tr td select{
+	margin: 10px;
+	padding:3px;
+}
+
+#menutitle{
+	height:100px;
+	background-color :#684F40;
+	font-family: 'Jeju Gothic', serif;
+	color:#FFFFFFFF;
+}
+
+#titleText{
+	font-size: 30px;
+	text-align : left;
+	padding-left: 50px;
+	padding-bottom:10px;
+}
+
+
+
+.menus{
+	margin:10px;
+}
+
+#listTable{
+	margin:10px;
+	padding:5px;/* 수정해줌 */	
+	/* border-collapse: collapse; */
+	
+	/* 아래 세 줄 추가함 */
+	border:1px dotted black;
+	border-radius: 10px;
+	font-family: 'Nanum Gothic', serif;
+	
+}
+#listtitle{
+	height: 100px;
+	font-family: 'Jeju Gothic', serif;
+	background-color :#684F40;
+	color:#FFFFFFFF;
+	
+}
+#listtr{
+	height:50px;
+	border-bottom: 1px dotted;
+	font-family: 'Nanum Gothic', serif;
+}
+#listTable td{
+	text-align : center;
+	border-bottom: 1px dotted;
+}
+#totallist{
+	font-family: 'Nanum Gothic', serif;
+	height:50px;
+	
+}
+
+
+.del{
+	border:none;
+	background:white;
+}
+
+
+#footer{
+	width: 100%;
+	text-align:center;
+	background:#684F40;
+	margin-top:30px;
+}
+#footer p{
+	color:white;
+}
+
+/* bpopup 스타일  */
+#element_to_pop_up { 
+    background-color:#fff;
+    border-radius:15px;
+    color:#000;
+    display:none; 
+    padding:20px;
+    min-width:400px;
+    min-height: 180px;
+    text-align: center;
+    line-height: 180px;
+    
+}
+.b-close{
+    cursor:pointer;
+    right:10px;
+    top:5px;
+    background-color:#fa4305;
+    border-radius:15px;
+    padding:20px;
+    margin: 10px;
+    color:#ffffff;  
+}
+
+/* 배너  */
+.banner {
+	position: relative;
+	width: 512px;
+	height: 159px;
+ 	bottom: 30px; 
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+}
+
+.banner ul {
+	position: absolute;
+	margin: 0px;
+	padding: 0;
+	list-style: none;
+}
+
+.banner ul li {
+	float: left;
+	width: 512px;
+	height: 159px;
+	margin: 0;
+	padding: 0;
+}
